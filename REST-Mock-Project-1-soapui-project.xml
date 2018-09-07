@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="37171eb0-7eba-452b-b7b9-461f68c1e0e5" activeEnvironment="Default" name="REST Mock Project 1" resourceRoot="" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="6b13b507-a48f-435c-9e7d-122fc3a33795" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8080</con:endpoint></con:endpoints><con:resource name="Login Service" path="/operator_login" id="5526f572-cc1c-45f7-b223-f62ce4b5c8a4"><con:settings/><con:parameters/><con:method name="operator_login" id="2a5b5e1e-c501-4b47-a49d-96f7f8b0548e" method="POST"><con:settings/><con:parameters><con:parameter><con:name>username</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>password</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>text/xml</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/xml</con:mediaType><con:status>401</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>text/xml</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Admin login_Ok" id="f7449018-509a-45cb-9a87-1cbd6c47f0fe" mediaType="text/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request/><con:originalUri>http://localhost/operator_login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="password" value="passw0rd!"/>
+  <con:entry key="username" value="Admin"/>
+</con:parameters></con:request><con:request name="Supervisor login_Ok" id="f7449018-509a-45cb-9a87-1cbd6c47f0fe" mediaType="text/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request/><con:originalUri>http://localhost/operator_login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="password" value="p@ssword!"/>
+  <con:entry key="username" value="Supervisor"/>
+</con:parameters></con:request><con:request name="Unsuccessful login" id="f7449018-509a-45cb-9a87-1cbd6c47f0fe" mediaType="text/xml" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request/><con:originalUri>http://localhost/operator_login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="password" value="password!"/>
+  <con:entry key="username" value="Trainee"/>
+</con:parameters></con:request></con:method></con:resource></con:interface><con:restMockService id="196d045a-8292-48ff-a9fa-7f9e68b0d3d5" port="8080" path="/" host="Victors-Air" name="Mock Operator_Login Service" docroot=""><con:description>Simulates a user login service prior to its development.</con:description><con:settings/><con:properties/><con:restMockAction name="operator_login" method="POST" resourcePath="/operator_login" id="97e95792-2d50-48ec-90bf-ab8b08be4460"><con:settings/><con:defaultResponse>Unsuccessful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>  
+
+def queryString = mockRequest.getRequest().getQueryString()
+
+
+if(queryString.contains("Admin"))
+
+{
+    return "Success_Admin"
+}
+
+
+else if(queryString.contains("Supervisor"))
+{
+    return "Success_Supervisor"
+}
+
+
+</con:dispatchPath><con:response name="Success_Admin" id="ad56ed1f-abd0-44d9-897e-28d586a28d4a" httpResponseStatus="200" mediaType="text/xml"><con:settings/><con:script>
+context.setProperty("Admin Login Timestamp", new Date().format("EEE, d MMM yyyy HH:mm:ss"))</con:script><con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Welcome Admin!</title>
+		<meta name="description" content="Mock service research"/>
+	</head>
+
+	<body>
+  		<h1>Have a nice shift!</h1>
+	</body>
+</html>]]></con:responseContent><con:header><con:name>Admin Login Timestamp</con:name><con:value>${Admin Login Timestamp}</con:value></con:header></con:response><con:response name="Success_Supervisor" id="7872871a-ebf5-45d2-9bef-bb19eaf10f64" httpResponseStatus="200" mediaType="text/xml"><con:settings/><con:script>context.setProperty("Supervisor Login Timestamp", new Date().format("EEE, d MMM yyyy HH:mm:ss"))</con:script><con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Welcome Supervisor!</title>
+		<meta name="description" content="Mock service research"/>
+	</head>
+
+	<body>
+  		<h1>Have a nice shift!</h1>
+	</body>
+</html>]]></con:responseContent><con:header><con:name>Supervisor Login Timestamp</con:name><con:value>${Supervisor Login Timestamp}</con:value></con:header></con:response><con:response name="Unsuccessful" id="5bebbf81-b4ea-4b33-9330-2e0b85498c92" httpResponseStatus="401" mediaType="text/xml"><con:settings/><con:script>context.setProperty("Unsuccessful Login Timestamp", new Date().format("EEE, d MMM yyyy HH:mm:ss"))</con:script><con:responseContent><![CDATA[<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Unsuccessful Login!</title>
+		<meta name="description" content="Mock service research"/>
+	</head>
+
+	<body>
+  		<h1> Your username or password is incorrect.</h1>
+	</body>
+</html>]]></con:responseContent><con:header><con:name>Unsuccessful Login Timestamp</con:name><con:value>${Unsuccessful Login Timestamp}</con:value></con:header></con:response></con:restMockAction></con:restMockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
